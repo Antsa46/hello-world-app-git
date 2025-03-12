@@ -24,7 +24,7 @@ app.get("/", async (req, res) => {
     const { population, date } = await getWorldPopulation();
     res.send(`
         <h1>Hello World!</h1>
-        <h1>Maapallon väkiluku</h1>
+        <h1>Maapallon väkiluku on</h1>
         <p><strong>Päivämäärä:</strong> ${date}</p>
         <p><strong>Väkiluku:</strong> ${population}</p>
     `);
