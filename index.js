@@ -93,7 +93,7 @@ app.get("/", async (req, res) => {
         </head>
         <body>
             <div class="container">
-                <h1>Hello World!</h1>
+                <h1>Hello Samppa ja Anssi</h1>
                 <h2>Maapallon väkiluku on tänään:</h2>
                 <p><strong>Päivämäärä:</strong> ${date}</p>
                 <p><strong>Väkiluku:</strong> ${population}</p>
