@@ -1,0 +1,63 @@
+/* Yleinen asettelu */
+body {
+    background: radial-gradient(circle, #3a3a3a, #2a2a2a, #1a1a1a); /* Kuuteemainen harmaa gradientti */
+    color: #e0e0e0; /* Vaaleanharmaa teksti */
+    font-family: "Merriweather", "Georgia", serif; /* Elegantti serif-fontti */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kontaineri keskelle */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08); /* Läpinäkyvä tummanharmaa */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Pehmeä kuuvalo-efekti */
+}
+
+/* Otsikot */
+h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #cccccc;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+/* Väkiluku ja päivämäärä */
+p {
+    font-size: 20px;
+    color: #dddddd;
+    margin: 10px 0;
+}
+
+/* Kuva keskitettynä */
+img {
+    width: 50%; /* Skaalattu 50% leveydelle */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Hieno hehku-efekti */
+}
+
+/* Linkit */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
