@@ -98,7 +98,7 @@ app.get("/", async (req, res) => {
                 <p><strong>Päivämäärä:</strong> ${date}</p>
                 <p><strong>Väkiluku:</strong> ${population}</p>
                 <p><strong>Kuun etäisyys Maasta:</strong> ${moonDistance} km</p>
-                <img src="/photos/kuu.jpg" alt="Kuu">
+                <img src="/photos/kuu.JPG" alt="Kuu">
             </div>
         </body>
         </html>
